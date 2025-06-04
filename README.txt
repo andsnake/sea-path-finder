@@ -11,4 +11,8 @@ end_lat, end_lng are the end coordinates
 units is the unit the is sued to measure distance
 route_type :
 - guided: will try to start the route from the given position
-- empty will return the best route between guided and the closer sea route in the manet network
+- empty will return the best route between guided and the closer sea route in the marnet network
+
+
+You are free to use this project in any Open Source projects.
+Use in commercial applications is prohibited unless author explicitly gives his permission
