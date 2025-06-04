@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  searoute-api:
+    build: .
+    container_name: searoute-api
+    ports:
+      - "8000:8000"   # host:container
+    restart: unless-stopped
+    # Uncomment the next two lines while developing to enable hot-reload
+    # volumes:
+    #   - .:/app
+
